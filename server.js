@@ -27,7 +27,7 @@ const port = process.env.PORT || 3000;
 
 app.use(
   cors({
-    origin: "https://starfish-app-iuei7.ondigitalocean.app/",
+    origin: "https://starfish-app-iuei7.ondigitalocean.app",
   })
 );
 
