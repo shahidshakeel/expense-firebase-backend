@@ -27,7 +27,7 @@ const port = process.env.PORT || 3000;
 
 app.use(
   cors({
-    origin: "http://localhost:3030",
+    origin: "https://walrus-app-6utnt.ondigitalocean.app",
   })
 );
 
